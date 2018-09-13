@@ -1,0 +1,174 @@
+#banner{
+	top: 0px;
+	left: 0px;
+	padding: 0px;
+	height:80px;
+	position:fixed;
+	width:100%;
+	margin-left:20px;
+	float: left;
+	font-size: 20px;
+	font-family: 'Pacifico', cursive;
+}
+
+#index p{
+	height:100px;
+	width:100px;
+}
+
+
+nav{
+	float:right;
+	list-style: disc;
+	margin-right:30px;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+#name {
+	float:left;
+	margin-left:30px;
+	margin-top:30px;
+	font-size:30px;
+}
+
+#anchor{
+	height: 45px;
+	width: auto;
+}
+
+nav li{
+	padding:20px;
+	display:inline;
+}
+
+#logo{
+	font-family: 'Pacifico', cursive;
+}
+
+
+
+body{
+	content: center;
+	-webkig-align-content:center;
+	background-image: url("sailboats.jpg");
+	text-align: center;
+	content: center;
+}
+
+.small{
+	font-size: 0.7em;
+}
+
+.skillet{
+	display:inline-block;
+	width:auto;
+	text-align: left;
+	content: center;
+	width:25%;
+	font-color:black;
+	background-color: #87ceeb;
+	padding:15px;
+	margin:25px;
+
+}
+.content {
+	display:inline-block;
+	position:relative;
+	top:95px;
+	max-height:600px;
+	width:70%;
+	padding: 40px;
+	font-family: 'Pacifico', cursive;
+	overflow-y: scroll;
+	background-color: rgba(0,0,0,0.2);
+	justify-content:space-between;
+}
+
+
+a {
+	color: black; 
+	text-decoration: none;
+}
+
+
+
+p{
+	background-color: #87ceeb;
+	color:black;
+	margin-left:15px;
+	margin-top:0px;
+	padding:5px;
+}
+
+h1{
+
+	background-color: #87ceeb;
+	width:20%;
+	color:black;
+	text-align: center;
+	margin:0 auto;
+	margin-bottom:20px;
+	padding:5px;
+}
+
+.black{
+	color:black;
+	font-color:black;
+}
+
+
+.interest{
+	display:inline-block;
+	float:top;
+	max-width:40%;
+	text-align: center;
+	content: center;
+	font-color:black;
+}
+
+.interest2{
+	display:inline-block;
+	float:top;
+	max-width:40%;
+	text-align: center;
+	content: center;
+	font-color:black;
+}
+
+#index{
+    display:inline-block;
+    float: left;
+}
+
+
+#main{
+	float:right;
+	display:inline-block;
+	text-align:left;
+	width:60%;
+}
+
+.linker{
+	width:17%;
+	border-radius: 25px;
+}
+
+img{
+	width:35%;
+}
+
+#links img{
+	display:inline-block;
+	max-width:200px;
+}
+
+.interest img{
+	display:inline-block;
+	float:top;
+	width:80%;
+	height: auto;
+}
+
+
+
