@@ -14,13 +14,18 @@
 	<link rel="stylesheet" href="mainLayout.css" />
 
 
-	<!-- Load any supplemental Javascript libraries here -->
+	<!-- Load any supplemental Javascript libraries here --><!-- 
 	<script type="text/javascript" src="external_js/jquery-1.9.0.min.js"></script>
-	<link rel="stylesheet" href="jquery-ui-1.11.4.custom/jquery-ui.css">
+	<link rel="stylesheet" href="jquery-ui-1.11.4.custom/jquery-ui.css"> -->
 	<!-- jQuery library -->
-	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
-	<script type="text/javascript" src="jquery-ui-1.11.4.custom/jquery-ui.js"></script>
-	<script type="text/javascript">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<!-- <script type="text/javascript" src="jquery-ui-1.11.4.custom/jquery-ui.js"></script> -->
+<!-- <script src="~/node_modules/jquery/dist/jquery.min.js"></script> -->
+<script type="text/javascript">
+</script>
+
+<script src="scripts.js"></script>
+
 </script>
 
 <link rel="import" href="nav.html">
@@ -30,7 +35,7 @@
 
 <body>
 	<div id='banner'>
-		<div id="name">Nicole O'Brien <img src='anchor.png' id='anchor'></div>
+		<div id="name">BQ Calculations <!-- <img src='anchor.png' id='anchor'> --></div>
 <nav>
 <ul>
   <li><a class="active" href="index.html">About Me</a></li>
@@ -44,13 +49,11 @@
 
         
         	<div class="content">
-	<img id="index" src="me.png" alt="Me">
-			<p id="main">   &nbsp  &nbsp  &nbsp  &nbsp  I am currently a senior double majoring in Computer Science & Engineering and Brain & Cognitive Science. Having a Brain & Cognitive Science double major separates me from most Software Engineers and other Computer Science majors. I think this background gives me a new perspective on user-centered design and has given me insight to the way humans think, beyond what is intuitive and common sense to everyone. Additionally, I have studied AI from a technical, machine learning and application standpoint as well as a theoretical perspective in a discussion-based class. My interests lie primarily in understanding human intelligence and its implications on artificial intelligence. I love coding and creating great user products through software development. As such, I have chosen to pursue a Masters of Engineering in MIT’s EECS Department with a concentration in Artificial Intelligence.
-
-			<br><br>  &nbsp  &nbsp  &nbsp  &nbsp  This semester I will be busy taking classes including Software Studio (6.170), Design and Analysis of Algorithms (6.046), Oral Communication (6.UAT), Infant & Childhood Cognition (9.85), and Reading & Writing Autobiographies & Biographies (21W.740). I will also be working as a Full Stack Web Developer at Brain Power LLC! 
-			Learn more at <u><a href=http://www.brain-power.com/>brain-power.com</a></u>
-
-        </p>
+<div class="form-group">
+  <input type="text" name="url" class="form-control" id="url-box" placeholder="Enter URL..." style="max-width: 300px;" autofocus required>
+</div>
+<button type="submit" id="url-submit" class="btn btn-default">Submit</button>
+</form>
         </div>
 </div>
 </body>

@@ -50,8 +50,8 @@ nav li{
 
 body{
 	content: center;
-	-webkig-align-content:center;
-	background-image: url("sailboats.jpg");
+	-webkig-align-content:center;/*
+	background-image: url("sailboats.jpg");*/
 	text-align: center;
 	content: center;
 }
